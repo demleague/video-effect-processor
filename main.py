@@ -247,5 +247,6 @@ def main3():
     cap.release()
     cv2.destroyAllWindows()
 
+#main() runs the pixelation filter, main2() runs the edge detection, main3() runs the image to ascii
 if __name__ == "__main__":
     main2()
